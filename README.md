@@ -27,8 +27,9 @@ This portfolio showcases a collection of my projects, skills, and experiences in
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Danish-Razzaq/Portfolio.git
-2. **Check Site Onlin:**
-   ```bash
-   danish-ali.netlify.app
+   
+2. **Check Site Online:**
+   [danish-ali.netlify.app](https://danish-ali.netlify.app)
+
    
 
