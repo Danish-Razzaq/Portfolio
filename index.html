@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+<!-- button -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<script src="script.js" defer></script>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#btn1").addClass("active");
+    });
+
+
+    $(document).ready(function () {
+      // Show the "soft" content by default
+      $("#soft").show();
+
+      $("#btn1").click(function () {
+        $("#hard").hide();
+        $("#soft").show();
+      });
+
+      $("#btn2").click(function () {
+        $("#soft").hide();
+        $("#hard").show();
+      });
+    });
+    $(document).ready(function () {
+      // Show the "soft" content by default
+
+      $("#btn-p1").click(function () {
+        // $("#hard").hide();
+        $("#p1").show(), $("#p2").show(), $("#p3").show(), $("#p4").show(), $("#p5").show(), $("#p6").show(), $("#p9").hide();
+      });
+      $("#btn-p2").click(function () {
+        // $("#hard").hide();
+        $("#p1").hide(), $("#p2").show(), $("#p3").show(), $("#p4").hide(), $("#p5").hide(), $("#p6").show(), $("#p9").hide();
+      });
+      $("#btn-p3").click(function () {
+        // $("#hard").hide();
+        $("#p1").show(), $("#p2").hide(), $("#p3").hide(), $("#p4").hide(), $('#p9').show(), $("#p6").hide();
+      });
+      $("#btn-p4").click(function () {
+        // $("#hard").hide();
+        $("#p1").hide(), $("#p2").hide(), $("#p3").show(), $("#p4").hide(), $("#p5").hide(), $("#p6").hide(), $("#p9").hide();
+      });
+    });
+  </script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <style>
+    html {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+  </style>
+  <script>
+    function myfunc() {
+      return halo;
+    }
+  </script>
+</head>
+
+<body >
+
+  <nav class="nav d-none  d-md-block d-lg-block fixed md:ml-[28%]  lg:pr-[35%]   md:mr-[5%] lg:ml-[32%]  drop-shadow-sm z-[100] " style="align-items: end;">
+    
+  
+    <ul class="nav-links space-x-4 d-flex justify-content-end mr-16 align-items-end">
+      <li class="font-semibold"><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#service">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contect"> <img class="w-8 h-8 rounded-full  " src="/image/Contect.png" alt="contact"> </a></li>
+  </ul>
+  
+    </div>
+  </nav>
+  <div class="flex flex-col mb-11">
+  <div>
+      <div style="display: flex; gap: 40px " >
+        <div class="md:z-[100] ld:z-[100] md:fixed lg:fixed w-full h-fit mdw-[32%]: lg:w-[32%] sm:[32%] lg:h-full" style="
+              /* position: fixed; */
+              background-color: #191a19;
+              /* width: 32%; */
+              /* height: 80ch; */
+              color: aliceblue;
+            ">
+          <div class="flex justify-center">
+            <img src="/image/IMG-20220328-WA0016 (10).jpeg" alt="IMage"
+              class="w-[250px]  h-[250px] rounded-full mt-12" />
+          </div>
+          <div class="flex justify-center items-center ">
+            <h1 class="text-4xl md:text-center mt-3 text-[#fff734]">
+                Muhammad Danish
+            </h1>
+        </div>
+        
+          <h1 class="flex justify-center mt-3 text-2xl">A Professional<span class="typewriter text-[#fff734] ml-1"><span class="text-red-700">W</span>eb
+              Developer</span> </h1>
+          <div class="md:block lg:block hidden">
+            <p class="font-thin ml-8 flex mt-4 mb-4 mr-4 text-sm justify-center">
+              Metric in Computer Science, Govt. High School Lahore (2018-2020)
+            </p>
+            <p class="font-extralight ml-8 mr-4 text-sm flex justify-center">
+              Intermediate in Computer Science, GDC College Defence
+              (2020-2022)
+            </p>
+          </div>
+
+          <h6 class="flex justify-center mt-4 font-serif">CONTACT ME</h6>
+          <div class="link flex space-x-4 justify-center mt-3 pb-5">
+            <a class="hover:text-white" href="mailto:your-email@gmail.com">
+              <svg class="{className}" xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em"
+                viewBox="0 0 20 20">
+                <g fill="currentColor">
+                  <path d="M3 4a2 2 0 0 0-2 2v1.161l8.441 4.221a1.25 1.25 0 0 0 1.118 0L19 7.162V6a2 2 0 0 0-2-2H3Z">
+                  </path>
+                  <path
+                    d="m19 8.839l-7.77 3.885a2.75 2.75 0 0 1-2.46 0L1 8.839V14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.839Z">
+                  </path>
+                </g>
+              </svg>
+            </a>
+
+            <a class="hover:text-white" href="https://twitter.com/Google">
+              <svg class="{className}" xmlns="http://www.w3.org/2000/svg" width="1.24em" height="1.3em"
+                viewBox="0 0 1231.051 1000">
+                <path fill="currentColor"
+                  d="M1231.051 118.453q-51.422 76.487-126.173 130.403q.738 14.46.738 32.687q0 101.273-29.53 202.791q-29.53 101.519-90.215 194.343q-60.685 92.824-144.574 164.468q-83.889 71.644-201.677 114.25q-117.788 42.606-252.474 42.606q-210.2 0-387.147-113.493q31.406 3.495 60.242 3.495q175.605 0 313.687-108.177q-81.877-1.501-146.654-50.409q-64.777-48.907-89.156-124.988q24.097 4.59 47.566 4.59q33.782 0 66.482-8.812q-87.378-17.5-144.975-87.04q-57.595-69.539-57.595-160.523v-3.126q53.633 29.696 114.416 31.592q-51.762-34.508-82.079-89.999q-30.319-55.491-30.319-120.102q0-68.143 34.151-126.908q95.022 116.607 230.278 186.392q135.258 69.786 290.212 77.514q-6.609-27.543-6.621-57.485q0-104.546 73.994-178.534Q747.623 0 852.169 0q109.456 0 184.392 79.711q85.618-16.959 160.333-61.349q-28.785 90.59-110.933 139.768q75.502-8.972 145.088-39.677z">
+                </path>
+              </svg>
+            </a>
+
+            <a class="hover:text-white" href="https://linkedin.com/aliciarodriguezLi">
+              <svg class="{className}" xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em"
+                viewBox="0 0 1000 1000">
+                <path fill="currentColor"
+                  d="M196.064.25C88.347.25.187 88.408.187 196.127v607.841c0 107.717 88.158 195.845 195.877 195.845h607.841c107.718 0 195.845-88.127 195.845-195.845V196.127C999.75 88.41 911.623.25 803.905.25H196.064zm49.266 164.948c51.648 0 83.461 33.906 84.443 78.475c0 43.585-32.797 78.444-85.442 78.444h-.969c-50.665 0-83.412-34.857-83.412-78.444c0-44.568 33.738-78.475 85.379-78.475zm445.08 208.31c99.329 0 173.79 64.922 173.79 204.436v260.449H713.247V595.406c0-61.06-21.847-102.718-76.476-102.718c-41.704 0-66.562 28.078-77.476 55.202c-3.987 9.704-4.967 23.257-4.967 36.832v253.671H403.375s1.981-411.613 0-454.233h150.984v64.324c20.06-30.95 55.942-74.977 136.051-74.977zm-521.556 10.685h150.953v454.202H168.854V384.193z">
+                </path>
+              </svg>
+            </a>
+            <a class="hover:text-white mb-3" href=" https://medium.com/@time2code">
+              <svg className="{className}" xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em"
+                viewBox="0 0 16 16">
+                <path fill="currentColor"
+                  d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236c-1.246 0-2.256-1.897-2.256-4.236c0-2.34 1.01-4.236 2.256-4.236c1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795c-.438 0-.793-1.7-.793-3.795c0-2.096.355-3.795.794-3.795c.438 0 .793 1.699.793 3.795z">
+                </path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="justify-start items-start">
+      <div class=" flex  info md:ml-[34%]  flex-col   md:mt-[6%] lg:mt-[6%] lg:ml-[34%] lg:mr-[5%] p-3 " >
+        <h1 class=" text-2xl ml-2 flex justify-start">ABOUT ME</h1>
+        <br />
+        <p class="container-fluid sm:text-sm flex-wrap">
+          As a highly motivated and driven individual with a passion for
+          making a positive impact, I have a unique blend of technical and
+          interpersonal skills, thanks to my background in computer science. I
+          am able to tackle complex problems with ease, and I never lose sight
+          of my ultimate goal, even when facing challenges.
+        </p>
+        <br />
+        <p class="container-fluid sm:text-sm flex-wrap">
+          When I'm not working, I love hiking, reading, and spending time with
+          my friends and family. I believe that my determination, can-do
+          attitude, and hard work make me a true asset to any team.
+        </p>
+        <div class="d-none d-lg-block d-md-block">
+        <div class="flex -mt-5 ml-2 mb-4  ">
+          <button id="btn1" class=" btn  flex font-bold justify-start hover:text-yellow-500 rounded-none bg-[#f3f3f3] hover:bg-black"
+            style="text-align: start " onclick="changeColor()" ,>
+            SOFT SKILLS
+          </button>
+          <!-- <spam class="  hidden md:block lg:block"> -->
+
+            <button  id="btn2"  onclick="changeColor2()"
+            
+            class="btn font-bold flex justify-end   hover:text-yellow-500  pl-10 rounded-none bg-[#f3f3f3] hover:bg-black"
+            style="text-align: end   ">
+            HARD SKILLS
+          </button>
+        <!-- </sp> -->
+        </div>
+        <div id="hard" style="display: none" class="md:ml-52 flex items-center justify-end lg:justify-end ml-6 md:block lg:block  ">
+          <ul class="flex space-x-2 -mlshadow-black  font-bold  items-center justify-end md:mr-7 mr-11 ">
+            <li class="bg-blue-400 p-2 rounded-md" key="typescript">
+              ʦ TypeScript
+            </li>
+            <li class="bg-yellow-400 p-2 rounded-md" key="react">🚀React</li>
+            <li class="bg-slate-600 p-2 rounded-md" key="nextjs">💾NextJS</li>
+            <li class="bg-sky-200 p-2 rounded-md" key="tailwindcss">
+              💾Tailwind-CSS
+            </li>
+            <li class="bg-blue-800 p-2 rounded-md " key="bootstrap">
+              📈BootStrap
+            </li>
+          </ul>
+
+          <div class="flex space-x-3  font-bold mt-3 items-center justify-end md:mr-7 mr-11 ">
+            <ul class="bg-blue-800 p-1 flex justify-center rounded-md text-yellow-300 w-36" key="python">
+              📦 Laravel
+            </ul>
+            <ul class="bg-sky-400 p-1 flex justify-center rounded-md text-white w-36" key="c++">
+              ⽓ C++
+            </ul>
+            <ul class="bg-pink-300 p-1 flex justify-center rounded-md text-purple-700 w-36" key="collaboration">
+              💻 J-Query
+            </ul>
+          </div>
+        </div>
+        <span id="experience" />
+      </div>
+      <div class=" text-3xl  m-2 lg:hidden md:hidden">Skills</div>
+      <div id="soft" class=" md:w-[70%] ">
+        <ul class="d-flex flex-wrap space-x-4 mb-3 shadow-black font-bold space-y-3 ">
+          <div class="mt-2 ml-4 md:-ml-4 lg:-ml-2">
+            <li class="bg-slate-600  px-14 p-2 rounded-md d-block d-md-none text-white flex-grow-0">💾NextJS</li>
+            </div>
+          <li class="bg-sky-200 p-2 rounded-md d-block d-md-none flex-grow-0">💾Tailwind-CSS</li>
+            <li class="bg-blue-800 p-2 rounded-md d-block d-md-none flex-grow-0">📈BootStrap</li>
+            <li class="flex-shrink-0 bg-[#d2eff1] p-2 rounded-md">👂🏼Active Listening</li>
+            <li class="flex-shrink-0 bg-[#d2eff1] p-2 rounded-md">💬Effective Communication</li>
+            <li class="flex-shrink-0 bg-[#d2eff1] p-2 rounded-md">👥Collaboration</li>
+
+                <li class="flex-shrink-0 bg-[#d2eff1] p-2 rounded-md">💡Creative Problem Solving</li>
+                <li class="flex-shrink-0 bg-[#d2eff1] p-2 rounded-md">⌛️Time management</li>
+            </ul>
+        </div>
+    </div>
+    
+     </div>
+
+      <div  class="md:ml-[35%] ml-5 mt-4 md:mr-10 lg:ml-[36%] lg:mr-20 flex-wrap mr-2">
+        <h2 class="text-xl font-normal flex-wrap">PROFESSIONAL EXPERIENCE</h2>
+        <br />
+
+<!-- <div class="flex flex-wrap"> -->
+
+  <div class="container-fluid mt-0  flex-grow bg-slate-100 border-t-8 p-4 shadow-md border-green-400 sm:text-sm">
+    <b>Asthmatic Technologies Software Company | Lahore</b> (Feb – Jun 2023)
+    As a front-end developer I was responsible for developing and implementing user interface components and features for web applications. Following were the key responsibilities
+    <ul class="list-disc pl-6">
+      <li>Front-End Technologies.</li>
+      <li>Responsive Web Design</li>
+      <li>Code Maintenance</li>
+    </ul>
+  <!-- </div> -->
+</div>
+  
+
+        <div class="container-fluid mt-4 bg-slate-100 border-t-8 p-4 shadow-md mb-8 sm:text-sm">
+          <b>IT Mate Pakistan Institute  | Lahore</b> (September – December 2022) As a teacher, my primary responsibility was to impart knowledge and teach students how to create and implement simple HTML user interface components and features for web applications. Moreover, I introduced my students to the concept of :
+          <li>Linking CSS style sheets to HTML document</li>
+          <li>A little concept about bootstrap</li>
+        </div>
+
+        <div class=" text-2xl font-bold">ACADEMIC PROJECTS</div>
+        
+        <div id="service" class="container-fluid mt-2 bg-purple-100 border-t-8 border-red-600 p-4 shadow-md sm:text-sm flex-wrap">
+          <b class="font-semibold"> ATM Machine</b>  –Type Script Project: <br>
+          In this project. I have created an ATM for the server side which takes user data in the terminal and after receiving the data from the user the ATM display shows and the user can perform various functions such as billing cash and Deposit etc.
+          
+        </div>
+        <div class="lg:hidden md:hidden" >
+
+          <div class=" text-2xl font-bold mt-4  ">ACHIEVEMENTS & AWARDS</div>
+          <li>Won a computer competition medal in college</li>
+          <li>Got first position in debating competition at school</li>
+        </div>
+
+        <div  class="mt-20 d-none d-md-block d-lg-block ">
+          <div class="flex justify-center">
+            <div>
+              <div class="w-36 h-2 font bg-black "></div>
+            </div>
+            <div class="flex -mt-6 mb-11 text-5xl ml-5 mr-5 font-extrabold">
+              What I Do
+            </div>
+            <div class="w-36 h-2  bg-black"></div>
+          </div>
+
+          <div class="flex flex-col space-y-12 ">
+            <div class="flex space-x-8">
+              <div
+                class="h-60 w-[72%]  bg-white justify-center flex flex-col  shadow-lg   transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                <div class="flex justify-center">
+                  <div
+                    class=" flex justify-center items-center w-20 h-20 rounded-md mb-3 bg-gray-200  hover:text-white  transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer ">
+                    <img
+                      src="https://cdn.icon-icons.com/icons2/1731/PNG/512/iconfinder-666-code-coding-computer-monoblock-retro-3957365_113092.png"
+                      alt="laptop" srcset="">
+                  </div>
+                </div>
+                <h3
+                  class="font-extrabold text-2xl flex justify-center  transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer ">
+                  Web Design
+                </h3>
+                <p class=" pl-7 pt-1 w-full text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  molestiae aliquid!</p>
+              </div>
+              <div
+                class="h-60 w-45  bg-white shadow-lg p-6    transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer   ">
+                <div class="flex justify-center">
+                  <div
+                    class="flex justify-center items-center w-20 h-20   transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  rounded-md mb-3 bg-gray-200  hover:text-white  ">
+                    <img class="w-14" src="https://www.svgrepo.com/download/3644/settings.svg" alt="Setting">
+                  </div>
+                </div>
+                <h3
+                  class="font-extrabold text-2xl flex justify-center  md:text-sm sm:text-sm  transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer ">
+                  Web Development
+                </h3>
+                <p class=" pl-4 pt-1 w-full text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  molestiae aliquid!</p>
+              </div>
+              <div
+                class="h-60 w-45  bg-white shadow-lg p-6    transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                <div class="flex justify-center">
+                  <div
+                    class="flex justify-center items-center   transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer w-20 h-20 rounded-md mb-3 bg-gray-200  hover:text-white  ">
+                    <img class="w-14" src="https://svgsilh.com/svg/1976104.svg" alt="Phone">
+                  </div>
+                </div>
+                <h3
+                  class="font-extrabold text-2xl flex justify-center  transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                  Responsive Design
+                </h3>
+                <p class=" pl-4 pt-1 w-full text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  molestiae aliquid!</p>
+              </div>
+            </div>
+            <div class="flex space-x-6">
+              <div
+                class="h-60 w-45  bg-white shadow-lg p-6    transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                <div class="flex justify-center">
+                  <div
+                    class="flex justify-center items-center  transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  w-20 h-20 rounded-md mb-3 bg-gray-200  hover:text-white  ">
+                    <img class="w-12" src="https://www.iconpacks.net/icons/1/free-rocket-icon-1206-thumb.png" alt="seo">
+                  </div>
+                </div>
+                <h3
+                  class="font-extrabold text-2xl flex justify-center  transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer">
+                  Branding Identity
+                </h3>
+                <p class=" pl-4 pt-1 w-full text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  molestiae aliquid!</p>
+              </div>
+              <div
+                class="h-60 w-45  bg-white shadow-lg p-6    transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                <div class="flex justify-center">
+                  <div
+                    class="flex justify-center items-center w-20 h-20  transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  rounded-md mb-3 bg-gray-200  hover:text-white  ">
+                    <img class="w-16" src="https://simpleicon.com/wp-content/uploads/pencil.svg" alt="writer">
+                  </div>
+                </div>
+                <h3
+                  class="font-extrabold text-2xl flex justify-center   transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer">
+                  Creative Design
+                </h3>
+                <p class=" pl-5 pt-1 w-full text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  molestiae aliquid!</p>
+              </div>
+              <div
+                class="h-60 w-45  bg-white shadow-lg p-6    transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                <div class="flex justify-center">
+                  <div
+                    class="flex justify-center items-center w-20 h-20   transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer rounded-md mb-3 bg-gray-200 hover:text-white  ">
+                    <img class="w-16"
+                      src="https://www.svgheart.com/wp-content/uploads/2021/11/circle-monogram-round-decoration-free-svg-file-SvgHeart.Com-2.png"
+                      alt="">
+                  </div>
+                </div>
+                <h3
+                  class="font-extrabold text-2xl flex justify-center  transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer">
+                  Quick Support
+                </h3>
+                <p class=" pl-6 pt-1 w-full text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                  molestiae aliquid!</p>
+                <span id="work"></span>
+              </div>
+            </div>
+
+            <div class="mt-20">
+              <div class="flex justify-center mt-11">
+                <div>
+                  <div class="w-36 h-2 font bg-black "></div>
+                </div>
+                <div class="flex -mt-6 mb-11 text-5xl ml-5 mr-5 font-extrabold">
+                  Recent Work
+                </div>
+                <div class="w-36 h-2  bg-black"></div>
+              </div>
+              <div class="flex justify-center space-x-1 mb-8">
+                <button id="btn-p1"
+                  class="bg-none hover:bg-[#191a19] rounded-lg py-1 px-4 hover:text-white">ALL</button>
+                <button id="btn-p2" class="bg-none hover:bg-[#191a19] rounded-lg py-1 px-4 hover:text-white">WEB
+                  DESIGN</button>
+                <button id="btn-p3"
+                  class="bg-none hover:bg-[#191a19] rounded-lg py-1 px-4 hover:text-white">APPLICATION</button>
+                <button id="btn-p4"
+                  class="bg-none hover:bg-[#191a19] rounded-lg py-1 px-4 hover:text-white">DEVELOPMENT</button>
+              </div>
+              <div>
+              </div>
+
+              <div class="flex flex-col space-y-12 justify-center ">
+                <div class="flex space-x-8 justify-center">
+
+                  <div id="p1"
+                    class="h-60 w-45  bg-white shadow-black   transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                    <img class="w-96 h-100" src="/image/p1.PNG" alt="laptop" srcset="">
+
+                  </div>
+                  <div id="p2"
+                    class="h-60 w-45  bg-white shadow-black   transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                    <img class="w-96 h-100" src="/image/p2.PNG" alt="laptop" srcset="">
+
+                  </div>
+
+                  <div id="p9" style="display: none;"
+                    class="h-60 w-45  block  bg-white shadow-black   transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                    <img class="w-96 h-100" src="/image/p9.webp" alt="laptop" srcset="">
+                    
+                  </div>
+                 
+                  <div id="p3"
+                    class="h-60 w-45  bg-white shadow-black   transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                    <img class="w-96 h-100" src="/image/p8.PNG" alt="laptop" srcset="">
+                  </div>
+
+                </div>
+                <span id="contect"></span>
+                <div  class="flex space-x-6 justify-center">
+                  <div class="flex space-x-8">
+
+                    <div id="p4"
+                      class="h-60 w-45  bg-white shadow-black   transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                      <img class="w-96 h-100" src="/image/p3.PNG" alt="laptop" srcset="">
+
+                    </div>
+                    <div id="p5"
+                      class="h-60 w-45  bg-white shadow-black   transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                      <img class="w-96 h-100" src="/image/p5.PNG" alt="laptop" srcset="">
+                    </div>
+                    <div id="p6"
+                      class="h-60 w-45  bg-white shadow-black   transition duration-700 ease-in-out    transform-none hover:scale-110 cursor-pointer  ">
+                      <img class="w-96 h-100" src="/image/p4.PNG" alt="laptop" srcset="">
+
+                    </div>
+                  </div>
+
+                </div>
+              
+
+           
+                <div 
+                  class="bg-[#191a19]   border-l-8 border-red-800 w-full flex-col h-48 flex justify-center items-center text-white text-5xl">
+                  <div>
+                    Hire Me For Your Next Project
+                  </div>
+                  <!-- <div class=" pt-2"> <a href="/cv/665336_1_13850PDF_230709_021325.pdf">
+                      <button
+                        class="border-white border-2 text-xl font-thin p-2   hover:text-red-800 hover:bg-white hover:border-red-900 ">
+                        HIRE ME NOW! </button></a>
+                  </div> -->
+
+              
+                  <button  class="download-btn" data-timer="5">
+                    <span class="icon material-symbols-rounded">vertical_align_bottom</span>
+                    <span class="text ">Download CV</span>
+                  </button>
+
+                </div>
+
+           
+
+              </div>
+            </div>
+          </div>
+
+
+
+          <div  class="flex justify-center mt-28 ">
+            <div>
+              <div class="w-44 h-1 font bg-black"></div>
+            </div>
+            <div class="flex -mt-6 mb-11 sm:text-4xl sm:-mt-5 text-5xl ml-5 mr-5 font-extrabold">
+              Get In Touch
+            </div>
+            <div class="w-44 h-1  bg-black"></div>
+          </div>
+          <div class=" flex justify-center ">
+
+            <input class="h-20  border-none w-full  bg-transparent placeholder-name  " type="text" placeholder="   Name">
+
+            <input class="h-20 w-full border-none  bg-transparent placeholder-name ml-5   " type="text" placeholder="   Email">
+
+          </div>
+          <div class="flex space-x-8">
+            <div class="bg-black h-0.5 w-full  "></div>
+            <div class="bg-black h-0.5 w-full  "></div>
+          </div>
+          <div class="mt-2 h-32 mb-4 flex items-start">
+
+            <input class="border-none " style="width: 100%; height: 140px;;" placeholder="   How We Can Help You?" type="text">
+          </div>
+          <div class=" h-0.5  bg-black"></div>
+          <div class="mt-7 flex justify-center">
+            <button
+              class="bg-[#191a19] text-white p-2 px-3 border-l-8 border-green-700 hover:border-red-800 hover:bg-blue-500 hover:text-black  ">Send
+              Message</button>
+          </div>
+
+          
+        </div>
+
+        <div class="flex justify-center d-md-none d-lg-none m-4">
+          <a href="/cv/PersonalCV.pdf" download>
+             <button class="download-btn" data-timer="5">
+                <span class="icon material-symbols-rounded">vertical_align_bottom</span>
+                <span class="text ">Download CV</span>
+             </button>
+          </a>
+       </div>
+       
+
+        
+
+
+      </div>
+      <div class="bg-sky-700 -mb-12 h-10 w-full bottom-1 mt-10 flex justify-end">
+        <div class="  p-2   text-white">Portfolio © 2023. All Right Reserved, By Themescare.</div>
+      </div>
+    </div>
+  </div>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+      new Typewriter('.typewriter', {
+        strings: [' Web Developer', ' Web Designer.'],
+        typespeed: 600,
+        backspeed: 500,
+        autoStart: true,
+        loop: true,
+      });
+
+    </script>
+    <script>
+      function changeColor() {
+        document.getElementById("btn1").style.backgroundColor = "yellow";
+        document.getElementById("btn2").style = "";
+      }
+    </script>
+
+    <script>
+      function changeColor2() {
+        document.getElementById("btn2").style.backgroundColor = "yellow";
+        document.getElementById("btn1").style = "";
+      }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  -->
+</body>
+
+</html>
